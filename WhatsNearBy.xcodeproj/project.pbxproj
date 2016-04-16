@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		242958431CC032EF0096655B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242958421CC032EF0096655B /* AppDelegate.swift */; };
-		242958451CC032EF0096655B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242958441CC032EF0096655B /* FirstViewController.swift */; };
-		242958471CC032EF0096655B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242958461CC032EF0096655B /* SecondViewController.swift */; };
 		2429584A1CC032EF0096655B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242958481CC032EF0096655B /* Main.storyboard */; };
 		2429584C1CC032EF0096655B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2429584B1CC032EF0096655B /* Assets.xcassets */; };
 		2429584F1CC032EF0096655B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2429584D1CC032EF0096655B /* LaunchScreen.storyboard */; };
+		242958621CC033A60096655B /* CityFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242958561CC033A60096655B /* CityFeature.swift */; };
+		242958631CC033A60096655B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242958571CC033A60096655B /* Constants.swift */; };
+		242958641CC033A60096655B /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 242958581CC033A60096655B /* Home.gpx */; };
+		242958651CC033A60096655B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242958591CC033A60096655B /* HomeVC.swift */; };
+		242958661CC033A60096655B /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2429585A1CC033A60096655B /* LocationAnnotation.swift */; };
+		242958671CC033A60096655B /* LocationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2429585B1CC033A60096655B /* LocationPoint.swift */; };
+		242958681CC033A60096655B /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2429585C1CC033A60096655B /* LocationType.swift */; };
+		242958691CC033A60096655B /* MyNeighborhoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2429585D1CC033A60096655B /* MyNeighborhoodData.swift */; };
+		2429586A1CC033A60096655B /* PrecisionLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2429585E1CC033A60096655B /* PrecisionLimit.swift */; };
+		2429586B1CC033A60096655B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2429585F1CC033A60096655B /* SettingsVC.swift */; };
+		2429586C1CC033A60096655B /* SODAClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242958601CC033A60096655B /* SODAClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2429583F1CC032EF0096655B /* WhatsNearBy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsNearBy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		242958421CC032EF0096655B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		242958441CC032EF0096655B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		242958461CC032EF0096655B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		242958421CC032EF0096655B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = WhatsNearBy/AppDelegate.swift; sourceTree = "<group>"; };
 		242958491CC032EF0096655B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2429584B1CC032EF0096655B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2429584B1CC032EF0096655B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WhatsNearBy/Assets.xcassets; sourceTree = "<group>"; };
 		2429584E1CC032EF0096655B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		242958501CC032EF0096655B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242958501CC032EF0096655B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WhatsNearBy/Info.plist; sourceTree = "<group>"; };
+		242958561CC033A60096655B /* CityFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CityFeature.swift; path = WhatsNearBy/CityFeature.swift; sourceTree = "<group>"; };
+		242958571CC033A60096655B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = WhatsNearBy/Constants.swift; sourceTree = "<group>"; };
+		242958581CC033A60096655B /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Home.gpx; path = WhatsNearBy/Home.gpx; sourceTree = "<group>"; };
+		242958591CC033A60096655B /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = WhatsNearBy/HomeVC.swift; sourceTree = "<group>"; };
+		2429585A1CC033A60096655B /* LocationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationAnnotation.swift; path = WhatsNearBy/LocationAnnotation.swift; sourceTree = "<group>"; };
+		2429585B1CC033A60096655B /* LocationPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationPoint.swift; path = WhatsNearBy/LocationPoint.swift; sourceTree = "<group>"; };
+		2429585C1CC033A60096655B /* LocationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationType.swift; path = WhatsNearBy/LocationType.swift; sourceTree = "<group>"; };
+		2429585D1CC033A60096655B /* MyNeighborhoodData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyNeighborhoodData.swift; path = WhatsNearBy/MyNeighborhoodData.swift; sourceTree = "<group>"; };
+		2429585E1CC033A60096655B /* PrecisionLimit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrecisionLimit.swift; path = WhatsNearBy/PrecisionLimit.swift; sourceTree = "<group>"; };
+		2429585F1CC033A60096655B /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsVC.swift; path = WhatsNearBy/SettingsVC.swift; sourceTree = "<group>"; };
+		242958601CC033A60096655B /* SODAClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SODAClient.swift; path = "/Users/antorcol/Documents/dev-stuff/SwiftLearning/Beginner2PaidProCourse/2016-04/WhatsNearBy/WhatsNearBy/SODAClient.swift"; sourceTree = "<absolute>"; };
+		2429586F1CC0345D0096655B /* SODAClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SODAClient.swift; path = WhatsNearBy/SODAClient.swift; sourceTree = "<group>"; };
+		242958701CC0345D0096655B /* SODAKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SODAKit.h; path = WhatsNearBy/SODAKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +60,12 @@
 		242958361CC032EF0096655B = {
 			isa = PBXGroup;
 			children = (
-				242958411CC032EF0096655B /* WhatsNearBy */,
+				242958501CC032EF0096655B /* Info.plist */,
+				242958711CC2B7E20096655B /* model */,
+				242958721CC2B8120096655B /* view */,
+				242958731CC2B8330096655B /* controller */,
+				242958741CC2B8500096655B /* util */,
+				2429585E1CC033A60096655B /* PrecisionLimit.swift */,
 				242958401CC032EF0096655B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +78,47 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		242958411CC032EF0096655B /* WhatsNearBy */ = {
+		242958711CC2B7E20096655B /* model */ = {
 			isa = PBXGroup;
 			children = (
-				242958421CC032EF0096655B /* AppDelegate.swift */,
-				242958441CC032EF0096655B /* FirstViewController.swift */,
-				242958461CC032EF0096655B /* SecondViewController.swift */,
+				242958581CC033A60096655B /* Home.gpx */,
+				2429585A1CC033A60096655B /* LocationAnnotation.swift */,
+				2429585B1CC033A60096655B /* LocationPoint.swift */,
+				2429585C1CC033A60096655B /* LocationType.swift */,
+				2429585D1CC033A60096655B /* MyNeighborhoodData.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		242958721CC2B8120096655B /* view */ = {
+			isa = PBXGroup;
+			children = (
 				242958481CC032EF0096655B /* Main.storyboard */,
 				2429584B1CC032EF0096655B /* Assets.xcassets */,
 				2429584D1CC032EF0096655B /* LaunchScreen.storyboard */,
-				242958501CC032EF0096655B /* Info.plist */,
 			);
-			path = WhatsNearBy;
+			name = view;
+			sourceTree = "<group>";
+		};
+		242958731CC2B8330096655B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				242958421CC032EF0096655B /* AppDelegate.swift */,
+				2429586F1CC0345D0096655B /* SODAClient.swift */,
+				242958701CC0345D0096655B /* SODAKit.h */,
+				242958591CC033A60096655B /* HomeVC.swift */,
+				2429585F1CC033A60096655B /* SettingsVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		242958741CC2B8500096655B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				242958571CC033A60096655B /* Constants.swift */,
+				242958561CC033A60096655B /* CityFeature.swift */,
+			);
+			name = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +182,7 @@
 			files = (
 				2429584F1CC032EF0096655B /* LaunchScreen.storyboard in Resources */,
 				2429584C1CC032EF0096655B /* Assets.xcassets in Resources */,
+				242958641CC033A60096655B /* Home.gpx in Resources */,
 				2429584A1CC032EF0096655B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,9 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				242958471CC032EF0096655B /* SecondViewController.swift in Sources */,
 				242958431CC032EF0096655B /* AppDelegate.swift in Sources */,
-				242958451CC032EF0096655B /* FirstViewController.swift in Sources */,
+				2429586A1CC033A60096655B /* PrecisionLimit.swift in Sources */,
+				242958671CC033A60096655B /* LocationPoint.swift in Sources */,
+				242958681CC033A60096655B /* LocationType.swift in Sources */,
+				2429586C1CC033A60096655B /* SODAClient.swift in Sources */,
+				242958691CC033A60096655B /* MyNeighborhoodData.swift in Sources */,
+				242958651CC033A60096655B /* HomeVC.swift in Sources */,
+				242958621CC033A60096655B /* CityFeature.swift in Sources */,
+				242958631CC033A60096655B /* Constants.swift in Sources */,
+				242958661CC033A60096655B /* LocationAnnotation.swift in Sources */,
+				2429586B1CC033A60096655B /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +217,7 @@
 				242958491CC032EF0096655B /* Base */,
 			);
 			name = Main.storyboard;
+			path = WhatsNearBy;
 			sourceTree = "<group>";
 		};
 		2429584D1CC032EF0096655B /* LaunchScreen.storyboard */ = {
@@ -162,6 +226,7 @@
 				2429584E1CC032EF0096655B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = WhatsNearBy;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -256,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = WhatsNearBy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atc.learning.WhatsNearBy;
@@ -267,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = WhatsNearBy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atc.learning.WhatsNearBy;
